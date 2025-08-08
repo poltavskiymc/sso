@@ -1,0 +1,6 @@
+end: "local"
+storage_path: "./storage/sso.db" #Папка, где лежит файл БД
+token_ttl: 1h #Время жизни токена
+grpc:
+  port: 44044
+  timeout: 10h #Для прода 5s
